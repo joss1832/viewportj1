@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body{
+    font-family: arial;
+}
+
+p{
+    display: block;
+    margin: 0;
+}
+
+.arriba{
+    background-color: blueviolet;
+}
+
+.abajo{
+    background-color: brown;
+}
+
+.arriba, .abajo{
+    color: rgb(225, 225, 225, 0.2);
+    font-size: 30px;
+    text-align: center;
+}
+
+.abajo p{
+    padding-top: 180px;
+}
+
+
+.arriba p{
+    padding-top: 100px;
+}
+
+
+
+/*especificaciones del div clase arriba*/
+
+.arriba{
+   height: 40vh ;
+   
+}
+
+/*---------------------------------------*/
+
+/*especificaciones del div clase abajo*/
+
+.abajo{
+    height: 60vh;
+}
